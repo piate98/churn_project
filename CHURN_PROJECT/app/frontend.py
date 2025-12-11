@@ -11,7 +11,7 @@ st.write("This app uses a trained machine learning model to predict whether a cu
 
 # ---------- Load trained pipeline ----------
 
-models_path = Path('./models/churn_pipeline.pkl').resolve().parents[1] 
+models_path = Path('./models/churn_pipeline.pkl').resolve().parent.parent
 churn_pipeline = joblib.load(models_path)
 
 # ---------- Input form ----------
