@@ -1,4 +1,4 @@
-📉 Customer Churn Prediction — End-to-End Machine Learning Project
+# 📉 Customer Churn Prediction — End-to-End Machine Learning Project
 https://churnproject-p1.streamlit.app/
 
 Predict whether a telecommunications customer is likely to churn using machine learning, FastAPI, and Streamlit.
@@ -17,7 +17,7 @@ This project demonstrates a complete production-style data science pipeline:
 
 * 🌐 Deploying an interactive web UI
 
-# 🔍 1. Project Overview
+## 🔍 1. Project Overview
 
 Customer churn is a major problem for subscription-based businesses. Retaining existing customers is far cheaper than acquiring new ones.
 
@@ -31,7 +31,7 @@ Churn Probability (%)
 
 Churn Prediction (Yes/No)
 
-# 🧠 2. Features Used
+## 🧠 2. Features Used
 
 Below are the key input features passed into the model and app:
 
@@ -61,7 +61,7 @@ Below are the key input features passed into the model and app:
 
 These features were encoded using OneHotEncoder and scaled using StandardScaler inside a single Scikit-Learn pipeline.
 
-# 🤖 3. Machine Learning Model
+## 🤖 3. Machine Learning Model
 Chosen Model: Logistic Regression
 
 Reasoning:
@@ -96,7 +96,7 @@ ROC-AUC: ~0.82
 
 Precision/Recall: Balanced for churn detection
 
-# 🏗️ 4. Tech Stack
+## 🏗️ 4. Tech Stack
 Backend / Model Serving
 
 
